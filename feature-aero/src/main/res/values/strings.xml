@@ -1,0 +1,7 @@
+<resources>
+    <string name="title_airline">Airlines</string>
+    <string name="network_error">Network not available, please connect to internet</string>
+    <string name="unknown_error">Something unexpected happened</string>
+    <string name="mark_favorite">Mark Favorite</string>
+    <string name="remove_favorite">Remove Favorite</string>
+</resources>

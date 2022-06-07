@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="StyleTextViewTitles">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textColor">#1c1c1a</item>
+    </style>
+
+    <style name="StyleTextViewContent">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/text_size_very_small</item>
+        <item name="android:textColor">#1c1c1a</item>
+    </style>
+
+    <style name="Toolbar.White.Back" parent="ThemeOverlay.MaterialComponents.Toolbar.Primary">
+        <item name="colorOnPrimary">#ffffff</item>
+    </style>
+</resources>

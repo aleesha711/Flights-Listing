@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:liftOnScroll="true">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:theme="@style/Toolbar.White.Back"
+            app:titleCentered="true"
+            app:titleTextColor="@color/cardview_light_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <TextView
+        style="@style/StyleTextViewTitles"
+        android:layout_margin="@dimen/margin_3x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="General" />
+
+    <include
+        android:id="@+id/itemTitle"
+        android:visibility="gone"
+        android:layout_marginStart="@dimen/margin_2x"
+        android:layout_marginEnd="@dimen/margin_2x"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/item_detail"/>
+
+    <include
+        android:id="@+id/itemWebsite"
+        android:visibility="gone"
+        android:layout_margin="@dimen/margin_2x"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/item_detail"/>
+
+    <include
+        android:id="@+id/itemPhone"
+        android:visibility="gone"
+        android:layout_marginStart="@dimen/margin_2x"
+        android:layout_marginEnd="@dimen/margin_2x"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/item_detail"/>
+
+</LinearLayout>
