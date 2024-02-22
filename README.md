@@ -7,3 +7,4 @@ It's an android application which displays list of flights, mark favorite/unfavo
 1. SharedFlow or StateFlow can be used instead of livedata in viewmodel
 2. Instead of XML, JetPack compose can be used
 
+To run project change base url to https://www.kayak.com/
